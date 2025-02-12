@@ -32,6 +32,9 @@ Document Retriever: Searches stored documents for relevant matches using FAISS.
 Document Ranker: Enhances ranking using contextual ranking techniques.
 
 Response Generator: Synthesizes an answer using retrieved and ranked documents.
+
+
+
 ![agent_graph](https://github.com/user-attachments/assets/91ca3d73-98de-44b2-bb94-fdd36ee94bff)
 
 
