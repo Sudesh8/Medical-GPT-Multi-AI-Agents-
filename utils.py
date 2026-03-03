@@ -32,7 +32,7 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
 
-# Get API Keys securely
+# get api securely
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 COHERE_API_KEY = os.getenv("COHERE_API_KEY")
 HF_API_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN")
@@ -240,3 +240,4 @@ graph = workflow.compile()
 def chat(question):
     result = graph.invoke({"init_msg": question})
     return result["answer"]
+
